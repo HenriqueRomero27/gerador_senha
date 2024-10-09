@@ -1,5 +1,6 @@
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native"
 import { Pressable } from "react-native"
+import * as Clipboard from "expo-clipboard"
 
 export function ModalPassword({senha, handleClose}) {
     return (
